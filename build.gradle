@@ -10,10 +10,9 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.jetbrains:annotations:22.0.0' // Пример зависимости
     testImplementation 'junit:junit:4.13.2'
 }
 
 test {
-    useJUnitPlatform()
+    useJUnit()
 }
